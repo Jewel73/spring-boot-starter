@@ -1,7 +1,7 @@
 package com.developersboard.config.jpa;
 
-import com.developersboard.backend.persistent.domain.base.ApplicationAuditorAware;
 import com.developersboard.constant.CacheConstants;
+import com.developersboard.domain.base.ApplicationAuditorAware;
 import java.util.List;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.cache.CacheManager;
@@ -29,8 +29,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableJpaAuditing(auditorAwareRef = "auditorAware")
 @EnableJpaRepositories(
     repositoryFactoryBeanClass = DataTablesRepositoryFactoryBean.class,
-    basePackages = "com.developersboard.backend.persistent.repository")
-@EntityScan(basePackages = "com.developersboard.backend.persistent.domain")
+    basePackages = "com.developersboard.repository")
+@EntityScan(basePackages = "com.developersboard.domain")
 public class JpaConfig {
 
   /**

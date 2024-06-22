@@ -1,17 +1,17 @@
 package com.developersboard.web.controller.user;
 
 import com.developersboard.annotation.Loggable;
-import com.developersboard.backend.service.mail.EmailService;
-import com.developersboard.backend.service.security.EncryptionService;
-import com.developersboard.backend.service.security.JwtService;
-import com.developersboard.backend.service.user.UserService;
 import com.developersboard.constant.ErrorConstants;
 import com.developersboard.constant.user.ProfileConstants;
 import com.developersboard.constant.user.SignUpConstants;
 import com.developersboard.constant.user.UserConstants;
+import com.developersboard.dto.UserDto;
 import com.developersboard.enums.UserHistoryType;
-import com.developersboard.shared.dto.UserDto;
-import com.developersboard.shared.util.UserUtils;
+import com.developersboard.service.mail.EmailService;
+import com.developersboard.service.security.EncryptionService;
+import com.developersboard.service.security.JwtService;
+import com.developersboard.service.user.UserService;
+import com.developersboard.util.UserUtils;
 import com.developersboard.web.payload.request.SignUpRequest;
 import jakarta.validation.Valid;
 import java.util.Objects;

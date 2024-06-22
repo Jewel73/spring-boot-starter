@@ -1,12 +1,13 @@
 package com.developersboard.backend.service.user;
 
-import com.developersboard.backend.persistent.domain.user.Role;
-import com.developersboard.backend.persistent.domain.user.User;
-import com.developersboard.backend.persistent.repository.UserRepository;
-import com.developersboard.backend.service.user.impl.UserServiceImpl;
+import com.developersboard.domain.user.Role;
+import com.developersboard.domain.user.User;
+import com.developersboard.dto.UserDto;
 import com.developersboard.enums.RoleType;
-import com.developersboard.shared.dto.UserDto;
-import com.developersboard.shared.util.UserUtils;
+import com.developersboard.repository.UserRepository;
+import com.developersboard.service.user.RoleService;
+import com.developersboard.service.user.impl.UserServiceImpl;
+import com.developersboard.util.UserUtils;
 import java.time.Clock;
 import java.time.Instant;
 import java.time.ZoneId;

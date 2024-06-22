@@ -4,7 +4,7 @@ import com.developersboard.IntegrationTestUtils;
 import com.developersboard.constant.EmailConstants;
 import com.developersboard.constant.ErrorConstants;
 import com.developersboard.constant.user.PasswordConstants;
-import com.developersboard.shared.util.UserUtils;
+import com.developersboard.util.UserUtils;
 import jakarta.mail.Message;
 import jakarta.mail.Message.RecipientType;
 import org.junit.jupiter.api.Assertions;

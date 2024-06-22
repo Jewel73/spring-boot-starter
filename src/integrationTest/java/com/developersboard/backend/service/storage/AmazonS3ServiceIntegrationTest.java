@@ -4,7 +4,7 @@ import com.amazonaws.services.s3.model.AmazonS3Exception;
 import com.developersboard.IntegrationTestUtils;
 import com.developersboard.constant.StorageConstants;
 import com.developersboard.exception.InvalidFileFormatException;
-import com.developersboard.shared.util.core.FileUtils;
+import com.developersboard.util.core.FileUtils;
 import io.findify.s3mock.S3Mock;
 import java.awt.image.BufferedImage;
 import java.io.File;

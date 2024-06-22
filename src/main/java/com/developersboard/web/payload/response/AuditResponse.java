@@ -1,6 +1,6 @@
 package com.developersboard.web.payload.response;
 
-import com.developersboard.shared.dto.UserDto;
+import com.developersboard.dto.UserDto;
 import java.io.Serial;
 import java.io.Serializable;
 import lombok.Data;

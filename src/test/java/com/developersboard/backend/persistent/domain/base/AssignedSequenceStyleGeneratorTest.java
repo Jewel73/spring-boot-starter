@@ -1,5 +1,7 @@
 package com.developersboard.backend.persistent.domain.base;
 
+import com.developersboard.domain.base.AssignedSequenceStyleGenerator;
+import com.developersboard.domain.base.Identifiable;
 import java.io.Serializable;
 import java.util.UUID;
 import org.hibernate.engine.spi.SharedSessionContractImplementor;

@@ -1,17 +1,17 @@
 package com.developersboard.web.controller.user;
 
-import com.developersboard.backend.service.mail.EmailService;
-import com.developersboard.backend.service.security.EncryptionService;
-import com.developersboard.backend.service.security.JwtService;
-import com.developersboard.backend.service.user.UserService;
 import com.developersboard.constant.ErrorConstants;
 import com.developersboard.constant.HomeConstants;
 import com.developersboard.constant.user.PasswordConstants;
 import com.developersboard.constant.user.UserConstants;
+import com.developersboard.dto.UserDto;
 import com.developersboard.enums.UserHistoryType;
-import com.developersboard.shared.dto.UserDto;
-import com.developersboard.shared.util.UserUtils;
-import com.developersboard.shared.util.core.SecurityUtils;
+import com.developersboard.service.mail.EmailService;
+import com.developersboard.service.security.EncryptionService;
+import com.developersboard.service.security.JwtService;
+import com.developersboard.service.user.UserService;
+import com.developersboard.util.UserUtils;
+import com.developersboard.util.core.SecurityUtils;
 import java.util.Objects;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

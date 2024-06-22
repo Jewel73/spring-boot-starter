@@ -1,6 +1,7 @@
 package com.developersboard.backend.persistent.domain.base;
 
 import com.developersboard.TestUtils;
+import com.developersboard.domain.base.ApplicationAuditorAware;
 import java.util.Optional;
 import nl.jqno.equalsverifier.EqualsVerifier;
 import org.junit.jupiter.api.Assertions;

@@ -42,7 +42,7 @@ public class ApiWebSecurityConfig {
    * @throws Exception thrown when error happens during authentication.
    */
   @Bean
-  @Order(1)
+  @Order
   public SecurityFilterChain apiFilterChain(HttpSecurity http) throws Exception {
 
     // Match any incoming request targeting the /api/** to use this security filter chain
@@ -62,7 +62,9 @@ public class ApiWebSecurityConfig {
               requests
                   .requestMatchers(
                       new AntPathRequestMatcher(
-                          AdminConstants.API_V1_USERS_ROOT_URL, HttpMethod.POST.name()))
+                          AdminConstants.API_V1_USERS_ROOT_URL, HttpMethod.POST.name()),
+                      new AntPathRequestMatcher(
+                          AdminConstants.API_V1_USERS_ROOT_URL + "/verify", HttpMethod.POST.name()))
                   .permitAll();
 
               // Allow access for users to authenticate after registration and refresh tokens

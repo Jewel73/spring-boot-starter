@@ -1,8 +1,9 @@
 package com.developersboard.backend.service.impl;
 
 import com.developersboard.TestUtils;
-import com.developersboard.backend.persistent.repository.UserRepository;
-import com.developersboard.shared.util.UserUtils;
+import com.developersboard.repository.UserRepository;
+import com.developersboard.service.impl.UserDetailsServiceImpl;
+import com.developersboard.util.UserUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

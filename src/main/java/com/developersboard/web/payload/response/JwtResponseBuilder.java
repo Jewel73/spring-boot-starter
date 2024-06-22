@@ -1,8 +1,8 @@
 package com.developersboard.web.payload.response;
 
-import com.developersboard.backend.service.impl.UserDetailsBuilder;
 import com.developersboard.constant.SecurityConstants;
-import com.developersboard.shared.util.core.SecurityUtils;
+import com.developersboard.service.impl.UserDetailsBuilder;
+import com.developersboard.util.core.SecurityUtils;
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.ArrayList;

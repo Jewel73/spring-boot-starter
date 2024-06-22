@@ -1,6 +1,6 @@
 package com.developersboard.config.security;
 
-import com.developersboard.backend.service.security.BruteForceProtectionService;
+import com.developersboard.service.security.BruteForceProtectionService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationListener;

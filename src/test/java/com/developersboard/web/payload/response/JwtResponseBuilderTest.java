@@ -1,12 +1,12 @@
 package com.developersboard.web.payload.response;
 
-import com.developersboard.backend.persistent.domain.user.Role;
-import com.developersboard.backend.persistent.domain.user.UserRole;
-import com.developersboard.backend.service.impl.UserDetailsBuilder;
 import com.developersboard.constant.SecurityConstants;
+import com.developersboard.domain.user.Role;
+import com.developersboard.domain.user.UserRole;
 import com.developersboard.enums.RoleType;
-import com.developersboard.shared.util.UserUtils;
-import com.developersboard.shared.util.core.SecurityUtils;
+import com.developersboard.service.impl.UserDetailsBuilder;
+import com.developersboard.util.UserUtils;
+import com.developersboard.util.core.SecurityUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;

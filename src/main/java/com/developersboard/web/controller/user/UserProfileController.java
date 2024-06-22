@@ -1,16 +1,16 @@
 package com.developersboard.web.controller.user;
 
 import com.developersboard.annotation.Loggable;
-import com.developersboard.backend.service.user.UserService;
 import com.developersboard.constant.ErrorConstants;
 import com.developersboard.constant.HomeConstants;
 import com.developersboard.constant.user.ProfileConstants;
 import com.developersboard.constant.user.UserConstants;
+import com.developersboard.dto.UserDto;
+import com.developersboard.dto.UserHistoryDto;
 import com.developersboard.enums.UserHistoryType;
-import com.developersboard.shared.dto.UserDto;
-import com.developersboard.shared.dto.UserHistoryDto;
-import com.developersboard.shared.util.UserUtils;
-import com.developersboard.shared.util.core.SecurityUtils;
+import com.developersboard.service.user.UserService;
+import com.developersboard.util.UserUtils;
+import com.developersboard.util.core.SecurityUtils;
 import jakarta.validation.Valid;
 import java.security.Principal;
 import java.util.Comparator;

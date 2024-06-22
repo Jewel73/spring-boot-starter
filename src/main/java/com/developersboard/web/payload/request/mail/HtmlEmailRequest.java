@@ -1,6 +1,6 @@
 package com.developersboard.web.payload.request.mail;
 
-import com.developersboard.shared.dto.UserDto;
+import com.developersboard.dto.UserDto;
 import java.io.File;
 import java.util.HashSet;
 import java.util.Set;

@@ -1,6 +1,7 @@
 package com.developersboard.shared.util.core;
 
 import com.developersboard.constant.user.SignUpConstants;
+import com.developersboard.util.core.WebUtils;
 import jakarta.servlet.http.HttpServletRequest;
 import java.util.UUID;
 import org.junit.jupiter.api.Assertions;

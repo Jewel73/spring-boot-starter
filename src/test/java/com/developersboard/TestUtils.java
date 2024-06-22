@@ -1,7 +1,7 @@
 package com.developersboard;
 
-import com.developersboard.backend.service.impl.UserDetailsBuilder;
-import com.developersboard.shared.util.UserUtils;
+import com.developersboard.service.impl.UserDetailsBuilder;
+import com.developersboard.util.UserUtils;
 import com.google.gson.Gson;
 import java.util.Arrays;
 import java.util.Collection;

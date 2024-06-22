@@ -47,7 +47,7 @@ public class DevConfig {
    *
    * @return javaMailSender
    */
-  @Bean
+  // @Bean
   public JavaMailSender mailSender() {
     return new JavaMailSenderImpl();
   }

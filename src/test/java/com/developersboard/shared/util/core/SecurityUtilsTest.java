@@ -1,9 +1,10 @@
 package com.developersboard.shared.util.core;
 
 import com.developersboard.TestUtils;
-import com.developersboard.backend.service.impl.UserDetailsBuilder;
-import com.developersboard.shared.dto.UserDto;
-import com.developersboard.shared.util.UserUtils;
+import com.developersboard.dto.UserDto;
+import com.developersboard.service.impl.UserDetailsBuilder;
+import com.developersboard.util.UserUtils;
+import com.developersboard.util.core.SecurityUtils;
 import jakarta.servlet.http.HttpServletRequest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

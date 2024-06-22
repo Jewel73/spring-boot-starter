@@ -1,7 +1,8 @@
 package com.developersboard.backend.service.security;
 
-import com.developersboard.backend.service.security.impl.EncryptionServiceImpl;
 import com.developersboard.exception.EncryptionException;
+import com.developersboard.service.security.EncryptionService;
+import com.developersboard.service.security.impl.EncryptionServiceImpl;
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
 import javax.crypto.Cipher;

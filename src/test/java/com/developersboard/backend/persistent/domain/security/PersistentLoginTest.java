@@ -1,5 +1,6 @@
 package com.developersboard.backend.persistent.domain.security;
 
+import com.developersboard.domain.security.PersistentLogin;
 import com.jparams.verifier.tostring.NameStyle;
 import com.jparams.verifier.tostring.ToStringVerifier;
 import nl.jqno.equalsverifier.EqualsVerifier;

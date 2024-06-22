@@ -1,6 +1,7 @@
 package com.developersboard.backend.persistent.domain.base;
 
 import com.developersboard.TestUtils;
+import com.developersboard.domain.base.BaseEntity;
 import com.jparams.verifier.tostring.NameStyle;
 import com.jparams.verifier.tostring.ToStringVerifier;
 import java.io.Serializable;

@@ -3,13 +3,13 @@ package com.developersboard.backend.service.user;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import com.developersboard.IntegrationTestUtils;
-import com.developersboard.backend.persistent.domain.user.Role;
-import com.developersboard.backend.service.impl.UserDetailsBuilder;
+import com.developersboard.domain.user.Role;
+import com.developersboard.dto.UserDto;
 import com.developersboard.enums.RoleType;
 import com.developersboard.enums.UserHistoryType;
 import com.developersboard.exception.user.UserAlreadyExistsException;
-import com.developersboard.shared.dto.UserDto;
-import com.developersboard.shared.util.UserUtils;
+import com.developersboard.service.impl.UserDetailsBuilder;
+import com.developersboard.util.UserUtils;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;

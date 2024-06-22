@@ -4,7 +4,7 @@ import com.developersboard.TestUtils;
 import com.developersboard.constant.HomeConstants;
 import com.developersboard.constant.SecurityConstants;
 import com.developersboard.constant.user.UserConstants;
-import com.developersboard.shared.util.core.SecurityUtils;
+import com.developersboard.util.core.SecurityUtils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInfo;

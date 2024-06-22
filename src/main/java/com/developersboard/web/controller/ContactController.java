@@ -1,11 +1,11 @@
 package com.developersboard.web.controller;
 
 import com.developersboard.annotation.Loggable;
-import com.developersboard.backend.service.mail.EmailService;
 import com.developersboard.config.properties.SystemProperties;
 import com.developersboard.constant.ContactConstants;
 import com.developersboard.constant.user.UserConstants;
-import com.developersboard.shared.util.core.SecurityUtils;
+import com.developersboard.service.mail.EmailService;
+import com.developersboard.util.core.SecurityUtils;
 import com.developersboard.web.payload.request.mail.FeedbackRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

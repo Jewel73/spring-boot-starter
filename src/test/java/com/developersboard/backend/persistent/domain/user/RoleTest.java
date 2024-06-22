@@ -1,5 +1,6 @@
 package com.developersboard.backend.persistent.domain.user;
 
+import com.developersboard.domain.user.Role;
 import com.jparams.verifier.tostring.NameStyle;
 import com.jparams.verifier.tostring.ToStringVerifier;
 import nl.jqno.equalsverifier.EqualsVerifier;

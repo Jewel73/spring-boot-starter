@@ -1,7 +1,7 @@
 package com.developersboard.backend.service.user;
 
 import com.developersboard.IntegrationTestUtils;
-import com.developersboard.backend.persistent.domain.user.Role;
+import com.developersboard.domain.user.Role;
 import com.developersboard.enums.RoleType;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

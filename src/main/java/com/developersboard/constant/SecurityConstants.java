@@ -2,7 +2,7 @@ package com.developersboard.constant;
 
 import com.developersboard.constant.user.PasswordConstants;
 import com.developersboard.constant.user.SignUpConstants;
-import com.developersboard.shared.util.core.ValidationUtils;
+import com.developersboard.util.core.ValidationUtils;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;

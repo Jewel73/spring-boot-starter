@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import com.developersboard.util.SignUpUtils;
 import com.developersboard.web.payload.request.SignUpRequest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

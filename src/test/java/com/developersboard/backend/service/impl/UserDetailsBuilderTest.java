@@ -1,8 +1,9 @@
 package com.developersboard.backend.service.impl;
 
-import com.developersboard.backend.persistent.domain.user.User;
+import com.developersboard.domain.user.User;
 import com.developersboard.enums.RoleType;
-import com.developersboard.shared.util.UserUtils;
+import com.developersboard.service.impl.UserDetailsBuilder;
+import com.developersboard.util.UserUtils;
 import com.jparams.verifier.tostring.NameStyle;
 import com.jparams.verifier.tostring.ToStringVerifier;
 import nl.jqno.equalsverifier.EqualsVerifier;

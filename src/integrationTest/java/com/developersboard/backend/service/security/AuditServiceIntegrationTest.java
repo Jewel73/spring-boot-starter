@@ -1,9 +1,9 @@
 package com.developersboard.backend.service.security;
 
 import com.developersboard.IntegrationTestUtils;
-import com.developersboard.backend.persistent.domain.user.User;
-import com.developersboard.shared.dto.UserDto;
-import com.developersboard.shared.util.UserUtils;
+import com.developersboard.domain.user.User;
+import com.developersboard.dto.UserDto;
+import com.developersboard.util.UserUtils;
 import java.util.List;
 import org.hibernate.envers.RevisionType;
 import org.junit.jupiter.api.Assertions;

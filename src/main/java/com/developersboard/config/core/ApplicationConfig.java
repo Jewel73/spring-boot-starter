@@ -1,6 +1,6 @@
 package com.developersboard.config.core;
 
-import com.developersboard.backend.service.impl.ApplicationDateTimeProvider;
+import com.developersboard.service.impl.ApplicationDateTimeProvider;
 import java.time.Clock;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

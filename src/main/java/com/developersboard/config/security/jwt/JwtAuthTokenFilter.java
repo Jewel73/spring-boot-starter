@@ -1,8 +1,8 @@
 package com.developersboard.config.security.jwt;
 
-import com.developersboard.backend.service.security.EncryptionService;
-import com.developersboard.backend.service.security.JwtService;
-import com.developersboard.shared.util.core.SecurityUtils;
+import com.developersboard.service.security.EncryptionService;
+import com.developersboard.service.security.JwtService;
+import com.developersboard.util.core.SecurityUtils;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

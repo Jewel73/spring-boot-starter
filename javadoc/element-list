@@ -19,6 +19,6 @@ com.developersboard.enums
 com.developersboard.exception
 com.developersboard.shared.util
 com.developersboard.shared.util.core
-com.developersboard.task
+com.developersboard.cache
 com.developersboard.web.advice
 com.developersboard.web.rest.v1

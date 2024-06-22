@@ -1,5 +1,6 @@
 package com.developersboard.shared.util.core;
 
+import com.developersboard.util.core.ValidationUtils;
 import java.util.stream.Stream;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

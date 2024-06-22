@@ -1,8 +1,9 @@
 package com.developersboard.backend.service.security;
 
-import com.developersboard.backend.service.security.impl.JwtServiceImpl;
-import com.developersboard.shared.util.core.JwtUtils;
-import com.developersboard.shared.util.core.JwtUtils.JwtTokenType;
+import com.developersboard.service.security.JwtService;
+import com.developersboard.service.security.impl.JwtServiceImpl;
+import com.developersboard.util.core.JwtUtils;
+import com.developersboard.util.core.JwtUtils.JwtTokenType;
 import java.util.Date;
 import org.apache.commons.lang3.time.DateUtils;
 import org.junit.jupiter.api.Assertions;

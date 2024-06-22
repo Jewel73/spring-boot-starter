@@ -3,7 +3,8 @@ package com.developersboard.shared.util.core;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.developersboard.shared.util.core.JwtUtils.JwtTokenType;
+import com.developersboard.util.core.JwtUtils;
+import com.developersboard.util.core.JwtUtils.JwtTokenType;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Pattern;

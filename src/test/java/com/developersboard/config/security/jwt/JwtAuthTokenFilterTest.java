@@ -1,9 +1,9 @@
 package com.developersboard.config.security.jwt;
 
-import com.developersboard.backend.service.impl.UserDetailsBuilder;
-import com.developersboard.backend.service.security.EncryptionService;
-import com.developersboard.backend.service.security.JwtService;
-import com.developersboard.shared.util.UserUtils;
+import com.developersboard.service.impl.UserDetailsBuilder;
+import com.developersboard.service.security.EncryptionService;
+import com.developersboard.service.security.JwtService;
+import com.developersboard.util.UserUtils;
 import jakarta.servlet.ServletException;
 import java.io.IOException;
 import org.junit.jupiter.api.Assertions;

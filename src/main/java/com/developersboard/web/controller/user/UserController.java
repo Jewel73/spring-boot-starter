@@ -1,9 +1,9 @@
 package com.developersboard.web.controller.user;
 
 import com.developersboard.annotation.Loggable;
-import com.developersboard.backend.persistent.domain.user.User;
-import com.developersboard.backend.service.security.AuditService;
-import com.developersboard.backend.service.user.UserService;
+import com.developersboard.domain.user.User;
+import com.developersboard.service.security.AuditService;
+import com.developersboard.service.user.UserService;
 import com.developersboard.web.payload.response.UserResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

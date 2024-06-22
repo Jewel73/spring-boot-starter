@@ -1,11 +1,13 @@
 package com.developersboard.backend.service.security;
 
-import com.developersboard.backend.service.security.impl.CookieServiceImpl;
-import com.developersboard.backend.service.security.impl.JwtServiceImpl;
 import com.developersboard.constant.EnvConstants;
 import com.developersboard.constant.SecurityConstants;
 import com.developersboard.enums.TokenType;
-import com.developersboard.shared.util.core.JwtUtils;
+import com.developersboard.service.security.CookieService;
+import com.developersboard.service.security.JwtService;
+import com.developersboard.service.security.impl.CookieServiceImpl;
+import com.developersboard.service.security.impl.JwtServiceImpl;
+import com.developersboard.util.core.JwtUtils;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;

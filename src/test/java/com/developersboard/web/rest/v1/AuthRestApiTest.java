@@ -1,8 +1,9 @@
 package com.developersboard.web.rest.v1;
 
 import com.developersboard.TestUtils;
-import com.developersboard.backend.service.security.CookieService;
 import com.developersboard.constant.SecurityConstants;
+import com.developersboard.rest.v1.AuthRestApi;
+import com.developersboard.service.security.CookieService;
 import com.developersboard.web.payload.request.LoginRequest;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Assertions;

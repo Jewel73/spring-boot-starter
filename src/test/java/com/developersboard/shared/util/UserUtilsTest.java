@@ -1,9 +1,10 @@
 package com.developersboard.shared.util;
 
 import com.developersboard.TestUtils;
-import com.developersboard.backend.persistent.domain.user.User;
+import com.developersboard.domain.user.User;
+import com.developersboard.dto.UserDto;
 import com.developersboard.enums.RoleType;
-import com.developersboard.shared.dto.UserDto;
+import com.developersboard.util.UserUtils;
 import com.developersboard.web.payload.request.SignUpRequest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

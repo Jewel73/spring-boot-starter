@@ -1,5 +1,6 @@
 package com.developersboard.shared.util.core;
 
+import com.developersboard.util.core.FileUtils;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;

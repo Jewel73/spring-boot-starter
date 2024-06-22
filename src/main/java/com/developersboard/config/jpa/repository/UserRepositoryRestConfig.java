@@ -1,6 +1,6 @@
 package com.developersboard.config.jpa.repository;
 
-import com.developersboard.backend.persistent.domain.user.User;
+import com.developersboard.domain.user.User;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
